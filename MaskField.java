@@ -15,7 +15,6 @@
  *
  */
 
-package ru.vas7n.va.widgets;
 
 
 import javafx.beans.property.SimpleStringProperty;
@@ -29,8 +28,8 @@ public class MaskField extends TextField {
 
 
     /**
-     * позиция в маске позволит ввести только цифры
-     */
+     * digit
+     * */
     public static final char MASK_DIGIT = 'D';
 
     /**
